@@ -10,7 +10,7 @@ contract EscrowApp2 {
 
     address admin;
     uint commission_percent = 1;
-    uint collected_commission = 0; // neden toplanan komisyon sıfıra eşitliyoruz şeyden olabilir ilk değeri atamak
+    uint collected_commission = 0; // 
 
     constructor(uint _commission_percent) {
         admin = msg.sender;
